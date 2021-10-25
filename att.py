@@ -14,10 +14,10 @@ class Car(Vehicle):
     def __init__(self,weight):
         Vehicle.__init__(self, weight)
         print('\nCar class created')
-        self.number_doors = 4
+        self.number_doors = 6
 
     def car_name(self):
-        print('Audio')
+        print('BWW')
 
     def _mytype(self):
         print('Type Car')
